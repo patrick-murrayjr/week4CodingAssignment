@@ -194,14 +194,14 @@ console.log("\n\n");
 
 // 13. Create a function of your own that solves a problem.   In comments, write what the function does and why you created it.
 // I have written a function that takes two equal length arrays of numbers as a parameter and returns the mean difference, which is a measure of the absolute difference between the mean values in two sets of data.
-//This can be used as a metric to estimate amount of change between an exerimental group and a control group of data in response to an external stimulus.
+//This can be used as a metric to estimate amount of change between an experimental group and a control group of data in response to an external stimulus.
 
 // I wrote this function as an excercise to demonstrate proficiency with the concepts addressed in this assignment; manipulation of arrays and using functions to return a result.
 //A function such as this may have real world application in statistical examination of data such as in a clinical trial to compare the effect of a stimulus on a treatement group compared to a control group.
 
 // The function will take 2 array parameters, array (a) and array (b) that will consist entirely of numbers, be of equal length, and have at least one element in each array. The mean difference between the two data sets will be calculated and returned. Note that the difference between two numbers is always expressed as a positive value, therefore the result should also always be positive
 
-//If the arrays are of different length, if any element in either arry is not a number, or the arrays do not each contain at least one element, the function will return 'undefined'
+//If the arrays are of different length, if any element in either array is not a number, or the arrays do not each contain at least one element, the function will return 'undefined'
 //I have performed validation on the parameters to ensure that the arguments passed can return a valid result.
 
 console.log(
