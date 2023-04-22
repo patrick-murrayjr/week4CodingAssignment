@@ -98,7 +98,7 @@ console.log("\n\n");
 console.log(
    `\n**************\nQuestion 6. Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array.`
 );
-const sumNames = nameLengths.reduce((x, y) => x + y);
+const sumNames = nameLengths.reduce((x, y) => x + y, 0);
 console.log(`Sum of all elements in nameLengths = ${sumNames}`);
 console.log("\n\n");
 
