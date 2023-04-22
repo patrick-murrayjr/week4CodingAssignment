@@ -15,7 +15,7 @@ console.log(`ages: [${ages}]`);
 // •	Do not use numbers to reference the last element, find it programmatically,
 // •	ages[7] – ages[0] is not allowed!
 console.log(
-   `\n**************\nQuestion 1a. Programmatically subtract the value of the first element in the array from the value in the last element of the array \nages[7] – ages[0] is not allowed!`
+   `\n**************\nQuestion 1a. Programmatically subtract the value of the first element in the array from the value in the last element of the array \nages[7] - ages[0] is not allowed!`
 );
 console.log(`Last element - first element = ${ages[ages.length - 1] - ages[0]}`);
 
