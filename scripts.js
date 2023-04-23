@@ -134,7 +134,7 @@ console.log(
    `\n**************\nQuestion 9. Write a function that takes an array of numbers and returns true if the sum of all the numbers in the array is greater than 100.`
 );
 
-// I used an array reduce method with callback function to sum the array. I then compared the result to see if the sum was greater than 100 and used a ternary operator to return true or false. An arrow function was used to fir teh function on a single line.
+// I used an array reduce method with callback function to sum the array. I then compared the result to see if the sum was greater than 100 and used a ternary operator to return true or false. An arrow function was used to fit the function on a single line.
 const MoreThan100 = (a) => (a.reduce((x, y) => x + y) > 100 ? true : false);
 testArr1 = [25, 25, 25, 26]; // true
 testArr2 = [25, 25, 25, 25]; // false
